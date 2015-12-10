@@ -15,7 +15,7 @@ namespace Serwer
 
         static void Main(string[] args)
         {
-            string adresIp = "192.168.56.1"; //podajemy adres ip naszezgo komputera na którym pracujemy trzeba go sprawdzic w cmd poprzez polecenie ipconfig następnie przepisać adres z ipv4 Address
+            string adresIp = "192.168.1.163"; //podajemy adres ip naszezgo komputera na którym pracujemy trzeba go sprawdzic w cmd poprzez polecenie ipconfig następnie przepisać adres z ipv4 Address
 
             //TODO: 1. Utworzenie punktu nadsłuchiwania - IPEndPoint
             var punktNadsluchiwanie = new IPEndPoint(IPAddress.Parse(adresIp), 2000);
