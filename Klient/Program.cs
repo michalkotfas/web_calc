@@ -14,7 +14,7 @@ namespace Klient
         static void Main(string[] args)
         {
             //TODO: 1. Utworzenie punktu połączenia do serwera - IPEndPoint
-            var punktSerwer = new IPEndPoint(IPAddress.Parse("192.168.56.1"), 2000);
+            var punktSerwer = new IPEndPoint(IPAddress.Parse("192.168.1.163"), 2000);
             //TODO: 2. Utworzenie gniazda połączenia - Socket
             var gniazdoSerwer = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             //TODO: 3. Połączenie z serwerem - Socket.Connect
